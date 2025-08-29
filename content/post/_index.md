@@ -1,4 +1,4 @@
 ---
-title: "Posts"
+title: "lectures"
 weight: 3
 ---

@@ -1,18 +1,27 @@
-baseURL: "https://hugo-dead-simple.netlify.com/"
+baseURL: "https://cs1660.org/"
 languageCode: en-us
-title: "Hugo dead simple example"
+title: "cs{16,20}60 Intro to Cloud Computing"
 enableGitInfo: true
 menu:
   main:
     - name: "<u>H</u>ome"
       url: /
       weight: 1
-    - name: "<u>T</u>ags"
-      url: "https://hugo-dead-simple.netlify.com/tags"
+    - name: "<u>A</u>dmin"
+      url: "/ad"
       weight: 3
+    - name: "<u>C</u>ode"
+      url: "/code"
+      weight: 4
+    - name: "<u>L</u>ectures"
+      url: "/post"
+      weight: 5
+    - name: "<u>S</u>taff"
+      url: "/staff"
+      weight: 7
 
 params:
-  description: "Hugo dead simple example"
+  description: "Intro to Cloud Computing Wiki"
   noSearch: false
 
 markup:

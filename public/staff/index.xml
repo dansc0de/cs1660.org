@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>staff on cs{16,20}60 Intro to Cloud Computing</title>
+    <link>http://localhost:1313/staff/</link>
+    <description>Recent content in staff on cs{16,20}60 Intro to Cloud Computing</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Aug 2025 00:00:00 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/staff/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Course Staff</title>
+      <link>http://localhost:1313/staff/instructor/</link>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/staff/instructor/</guid>
+      <description>&lt;h1 id=&#34;course-staff&#34;&gt;Course Staff&lt;/h1&gt;&#xA;&lt;h2 id=&#34;instructor&#34;&gt;Instructor&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Dan Mahoney&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Instructor&lt;/em&gt;&lt;br&gt;&#xA;Email: &lt;a href=&#34;mailto:dpm79@pitt.edu&#34; &gt;dpm79@pitt.edu&lt;/a&gt;&#xA;&lt;/p&gt;&#xA;&lt;h3 id=&#34;office-hours&#34;&gt;Office Hours&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Time&lt;/strong&gt;: Virtual on Thursdays 6:00pm - 8:00pm EST&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Additional&lt;/strong&gt;: As needed by appointment&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;communication&#34;&gt;Communication&lt;/h3&gt;&#xA;&lt;p&gt;For questions, please email with subject line beginning with &amp;ldquo;CS1660:&amp;rdquo; or use the class Discord server. Zoom appointments are available if scheduled in advance.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

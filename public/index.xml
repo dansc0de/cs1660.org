@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cs{16,20}60 Intro to Cloud Computing</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on cs{16,20}60 Intro to Cloud Computing</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Course Staff</title>
+      <link>http://localhost:1313/staff/instructor/</link>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/staff/instructor/</guid>
+      <description>&lt;h1 id=&#34;course-staff&#34;&gt;Course Staff&lt;/h1&gt;&#xA;&lt;h2 id=&#34;instructor&#34;&gt;Instructor&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Dan Mahoney&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Instructor&lt;/em&gt;&lt;br&gt;&#xA;Email: &lt;a href=&#34;mailto:dpm79@pitt.edu&#34; &gt;dpm79@pitt.edu&lt;/a&gt;&#xA;&lt;/p&gt;&#xA;&lt;h3 id=&#34;office-hours&#34;&gt;Office Hours&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Time&lt;/strong&gt;: Virtual on Thursdays 6:00pm - 8:00pm EST&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Additional&lt;/strong&gt;: As needed by appointment&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;communication&#34;&gt;Communication&lt;/h3&gt;&#xA;&lt;p&gt;For questions, please email with subject line beginning with &amp;ldquo;CS1660:&amp;rdquo; or use the class Discord server. Zoom appointments are available if scheduled in advance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Syllabus</title>
+      <link>http://localhost:1313/ad/syllabus/</link>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/ad/syllabus/</guid>
+      <description>&lt;h1 id=&#34;cs16602060-introduction-to-cloud-computing&#34;&gt;CS1660/2060 Introduction to Cloud Computing&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Fall 2025&lt;/strong&gt;&lt;br&gt;&#xA;&lt;strong&gt;Wednesday 6:00 - 8:50 PM EST&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;course-description&#34;&gt;COURSE DESCRIPTION&lt;/h2&gt;&#xA;&lt;p&gt;&amp;ldquo;Cloud Computing&amp;rdquo; is designed to provide students with a comprehensive understanding of cloud computing technologies and their practical applications. This course covers a wide range of topics related to cloud computing, including virtualization, containerization, orchestration (using popular tools such as Docker Compose and Kubernetes), popular cloud services (object storage, VM, and other managed services), and cloud security models.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>On Rust</title>
+      <link>http://localhost:1313/post/on-rust/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/on-rust/</guid>
+      <description>&lt;p&gt;Thinking of using Rust as a web backend?&lt;/p&gt;&#xA;&lt;p&gt;Imagine that TypeScript is like a shitty but versatile truck. It will do all sorts of weird shit, including a godawful toolchain and bundling system, but it is well supported by the community and it will handle whatever you throw at it. A huge pothole in the road? It will somehow manage to come out the other end but it won&amp;rsquo;t be pretty. It will get to the finish line slowly but surely.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>REST API Guidelines 📜</title>
+      <link>http://localhost:1313/post/rest-api/</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/rest-api/</guid>
+      <description>&lt;p&gt;This is a shortened merge of &lt;a href=&#34;https://cloud.google.com/apis/design&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer nofollow&#34;&gt;Google&amp;rsquo;s API design guide&lt;/a&gt;&#xA;&#xA;and &lt;a href=&#34;https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer nofollow&#34;&gt;Microsoft REST API Guidelines&lt;/a&gt;&#xA;.&lt;/p&gt;&#xA;&lt;p&gt;To write OpenAPI schema &lt;a href=&#34;https://swagger.io/docs/specification/basic-structure/&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer nofollow&#34;&gt;swagger&lt;/a&gt;&#xA; documentation is useful.&#xA;To quickly iterate on a design, &lt;a href=&#34;https://semver.org/&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer nofollow&#34;&gt;semantic versioning&lt;/a&gt;&#xA; should be used.&#xA;To generate human-readable diff of different versions &lt;a href=&#34;https://github.com/OpenAPITools/openapi-diff&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer nofollow&#34;&gt;openapi-diff&lt;/a&gt;&#xA;&#xA;can be useful.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-resource-oriented-design&#34;&gt;1. Resource-oriented design&lt;/h2&gt;&#xA;&lt;p&gt;In general URL paths should follow this scheme:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;API Service Name&lt;/th&gt;&#xA;          &lt;th&gt;Collection ID&lt;/th&gt;&#xA;          &lt;th&gt;Resource ID&lt;/th&gt;&#xA;          &lt;th&gt;Collection ID&lt;/th&gt;&#xA;          &lt;th&gt;Resource ID&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;//storage.googleapis.com&lt;/td&gt;&#xA;          &lt;td&gt;/buckets&lt;/td&gt;&#xA;          &lt;td&gt;/bucket-id&lt;/td&gt;&#xA;          &lt;td&gt;/objects&lt;/td&gt;&#xA;          &lt;td&gt;/object-id&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;A storage service has a collection of &lt;em&gt;buckets&lt;/em&gt;, where each bucket has a collection of &lt;em&gt;objects&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
