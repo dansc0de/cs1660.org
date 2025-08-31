@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CS1660 – Intro to Cloud Computing on cs{16,20}60 Intro to Cloud Computing</title><link>https://cs1660.org/</link><description>Recent content in CS1660 – Intro to Cloud Computing on cs{16,20}60 Intro to Cloud Computing</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://cs1660.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Course Staff</title><link>https://cs1660.org/staff/instructor/</link><pubDate>Fri, 29 Aug 2025 00:00:00 -0400</pubDate><guid>https://cs1660.org/staff/instructor/</guid><description>&lt;h1 id="course-staff">Course Staff&lt;/h1>
+&lt;h2 id="instructor">Instructor&lt;/h2>
+&lt;p>&lt;strong>Dan Mahoney&lt;/strong>&lt;br>
+&lt;em>Instructor&lt;/em>&lt;br>
+Email: &lt;a href="mailto:dpm79@pitt.edu" >dpm79@pitt.edu&lt;/a>
+&lt;/p>
+&lt;h3 id="office-hours">Office Hours&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Time&lt;/strong>: Virtual on Thursdays 6:00pm - 8:00pm EST&lt;/li>
+&lt;li>&lt;strong>Additional&lt;/strong>: As needed by appointment&lt;/li>
+&lt;/ul>
+&lt;h3 id="communication">Communication&lt;/h3>
+&lt;p>For questions, please email with subject line beginning with &amp;ldquo;CS1660:&amp;rdquo; or use the class Discord server. Zoom appointments are available if scheduled in advance.&lt;/p></description></item><item><title>Syllabus</title><link>https://cs1660.org/ad/syllabus/</link><pubDate>Fri, 29 Aug 2025 00:00:00 -0400</pubDate><guid>https://cs1660.org/ad/syllabus/</guid><description>&lt;h1 id="cs16602060-introduction-to-cloud-computing">CS1660/2060 Introduction to Cloud Computing&lt;/h1>
+&lt;p>&lt;strong>Fall 2025&lt;/strong>&lt;br>
+&lt;strong>Wednesday 6:00 - 8:50 PM EST&lt;/strong>&lt;/p>
+&lt;h2 id="course-description">COURSE DESCRIPTION&lt;/h2>
+&lt;p>&amp;ldquo;Cloud Computing&amp;rdquo; is designed to provide students with a comprehensive understanding of cloud computing technologies and their practical applications. This course covers a wide range of topics related to cloud computing, including virtualization, containerization, orchestration (using popular tools such as Docker Compose and Kubernetes), popular cloud services (object storage, VM, and other managed services), and cloud security models.&lt;/p></description></item><item><title>On Rust</title><link>https://cs1660.org/post/on-rust/</link><pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate><guid>https://cs1660.org/post/on-rust/</guid><description>&lt;p>Thinking of using Rust as a web backend?&lt;/p>
+&lt;p>Imagine that TypeScript is like a shitty but versatile truck. It will do all sorts of weird shit, including a godawful toolchain and bundling system, but it is well supported by the community and it will handle whatever you throw at it. A huge pothole in the road? It will somehow manage to come out the other end but it won&amp;rsquo;t be pretty. It will get to the finish line slowly but surely.&lt;/p></description></item><item><title>REST API Guidelines 📜</title><link>https://cs1660.org/post/rest-api/</link><pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate><guid>https://cs1660.org/post/rest-api/</guid><description>&lt;p>This is a shortened merge of &lt;a href="https://cloud.google.com/apis/design" target="_blank" rel="noreferrer nofollow">Google&amp;rsquo;s API design guide&lt;/a>
+
+and &lt;a href="https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md" target="_blank" rel="noreferrer nofollow">Microsoft REST API Guidelines&lt;/a>
+.&lt;/p>
+&lt;p>To write OpenAPI schema &lt;a href="https://swagger.io/docs/specification/basic-structure/" target="_blank" rel="noreferrer nofollow">swagger&lt;/a>
+ documentation is useful.
+To quickly iterate on a design, &lt;a href="https://semver.org/" target="_blank" rel="noreferrer nofollow">semantic versioning&lt;/a>
+ should be used.
+To generate human-readable diff of different versions &lt;a href="https://github.com/OpenAPITools/openapi-diff" target="_blank" rel="noreferrer nofollow">openapi-diff&lt;/a>
+
+can be useful.&lt;/p>
+&lt;h2 id="1-resource-oriented-design">1. Resource-oriented design&lt;/h2>
+&lt;p>In general URL paths should follow this scheme:&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>API Service Name&lt;/th>
+ &lt;th>Collection ID&lt;/th>
+ &lt;th>Resource ID&lt;/th>
+ &lt;th>Collection ID&lt;/th>
+ &lt;th>Resource ID&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>//storage.googleapis.com&lt;/td>
+ &lt;td>/buckets&lt;/td>
+ &lt;td>/bucket-id&lt;/td>
+ &lt;td>/objects&lt;/td>
+ &lt;td>/object-id&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>A storage service has a collection of &lt;em>buckets&lt;/em>, where each bucket has a collection of &lt;em>objects&lt;/em>.&lt;/p></description></item></channel></rss>

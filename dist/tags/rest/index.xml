@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rest on cs{16,20}60 Intro to Cloud Computing</title><link>https://cs1660.org/tags/rest/</link><description>Recent content in Rest on cs{16,20}60 Intro to Cloud Computing</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 28 Mar 2025 16:52:08 -0400</lastBuildDate><atom:link href="https://cs1660.org/tags/rest/index.xml" rel="self" type="application/rss+xml"/><item><title>REST API Guidelines 📜</title><link>https://cs1660.org/post/rest-api/</link><pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate><guid>https://cs1660.org/post/rest-api/</guid><description>&lt;p>This is a shortened merge of &lt;a href="https://cloud.google.com/apis/design" target="_blank" rel="noreferrer nofollow">Google&amp;rsquo;s API design guide&lt;/a>
+
+and &lt;a href="https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md" target="_blank" rel="noreferrer nofollow">Microsoft REST API Guidelines&lt;/a>
+.&lt;/p>
+&lt;p>To write OpenAPI schema &lt;a href="https://swagger.io/docs/specification/basic-structure/" target="_blank" rel="noreferrer nofollow">swagger&lt;/a>
+ documentation is useful.
+To quickly iterate on a design, &lt;a href="https://semver.org/" target="_blank" rel="noreferrer nofollow">semantic versioning&lt;/a>
+ should be used.
+To generate human-readable diff of different versions &lt;a href="https://github.com/OpenAPITools/openapi-diff" target="_blank" rel="noreferrer nofollow">openapi-diff&lt;/a>
+
+can be useful.&lt;/p>
+&lt;h2 id="1-resource-oriented-design">1. Resource-oriented design&lt;/h2>
+&lt;p>In general URL paths should follow this scheme:&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>API Service Name&lt;/th>
+ &lt;th>Collection ID&lt;/th>
+ &lt;th>Resource ID&lt;/th>
+ &lt;th>Collection ID&lt;/th>
+ &lt;th>Resource ID&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>//storage.googleapis.com&lt;/td>
+ &lt;td>/buckets&lt;/td>
+ &lt;td>/bucket-id&lt;/td>
+ &lt;td>/objects&lt;/td>
+ &lt;td>/object-id&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>A storage service has a collection of &lt;em>buckets&lt;/em>, where each bucket has a collection of &lt;em>objects&lt;/em>.&lt;/p></description></item></channel></rss>
