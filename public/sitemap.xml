@@ -3,21 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/ad/</loc>
-    <lastmod>2025-08-29T00:00:00-04:00</lastmod>
+    <lastmod>2025-08-29T15:36:33-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-03-28T16:52:08-04:00</lastmod>
+    <lastmod>2025-08-29T15:36:33-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/code/</loc>
+    <lastmod>2025-08-29T15:36:33-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/staff/</loc>
-    <lastmod>2025-08-29T00:00:00-04:00</lastmod>
+    <lastmod>2025-08-29T15:36:33-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/staff/instructor/</loc>
-    <lastmod>2025-08-29T00:00:00-04:00</lastmod>
+    <lastmod>2025-08-29T15:36:33-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/ad/syllabus/</loc>
-    <lastmod>2025-08-29T00:00:00-04:00</lastmod>
+    <lastmod>2025-08-29T15:36:33-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/on-rust/</loc>
     <lastmod>2025-03-28T16:52:08-04:00</lastmod>
@@ -34,9 +35,9 @@
     <loc>http://localhost:1313/post/rest-api/</loc>
     <lastmod>2025-03-28T16:52:08-04:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-03-28T16:52:08-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>
